@@ -8,4 +8,4 @@
 
 <h3>How to use</h3>
 <h3>Important</h3>
-I'm not responsible for any bans that happen from using this software. Use at your own risk.
+<ul>I'm not responsible for any bans that happen from using this software. Use at your own risk.</ul>
