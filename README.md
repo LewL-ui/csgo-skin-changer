@@ -4,6 +4,7 @@
 <ul><li><a href="https://www.python.org/">Python >= 3.5</a></li>
   <li><a href="https://pypi.org/project/Pymem/">Pymem</a></li>
   <li><a href="https://pypi.org/project/keyboard/">Keyboard</a></li>
+  <li><a href="https://pypi.org/project/pywin32/">win32api</a></li>
 </ul>
 
 <h3>How to use</h3>
