@@ -10,7 +10,7 @@ The skin swapper requires [python 3.6](https://www.python.org/downloads/release/
 
 3. Launch CS:GO.
 
-4. Launch the (`skin.py`) file by using:
+4. Launch the (`skin.py`) file by either using:
 
     ```
     python skin.py
