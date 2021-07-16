@@ -22,13 +22,13 @@ The skin swapper requires [python 3.6](https://www.python.org/downloads/release/
 
 ## Setup your config
 Example weapon config:
-    ```
-        "deagle": {
-            "id": 1,
-            "skinID": 0,
-            "float": 0.001
-        }
-    ```
+```
+    "deagle": {
+        "id": 1,
+        "skinID": 0,
+        "float": 0.001
+    }
+```
     
 
 
