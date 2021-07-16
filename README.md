@@ -19,6 +19,19 @@ The skin swapper requires [python 3.6](https://www.python.org/downloads/release/
     ```
     py skin.py
     ```
+
+## Setup your config
+    Example weapon config:
+        ```
+        "deagle": {
+            "id": 1,
+            "skinID": 0,
+            "float": 0.001
+        }
+    ```
+    
+
+
 ## Known Issues
   * The skin swapper has some flaws and crashes some times. Usually a restart of the script fixes it.
 
