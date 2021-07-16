@@ -29,7 +29,15 @@ Example weapon config:
         "float": 0.001
     }
 ```
-    
+If you want to make this weapon StatTrak: 
+```
+    "deagle": {
+        "id": 1,
+        "skinID": 0,
+        "float": 0.001,
+        "statTrack": 9999
+    }
+```
 
 
 ## Known Issues
