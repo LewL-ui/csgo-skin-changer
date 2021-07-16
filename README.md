@@ -48,7 +48,8 @@ To change the skin, you change the value of `skinID`, example:
 ```
 To keep your actual skin applied on the weapon, set `skinID` to `0`.
 
-You can find skin ids from [here](https://csgostash.com/), finding a skin, and the Finish Catalog is your skin id. 
+You can find skin ids from [here](https://csgostash.com/), finding a skin, and the Finish Catalog is your skin id as seen below:
+
 ![alt text](https://github.com/donato-fiore/csgo-skin-swapper/blob/main/skinid.png?raw=true)
 
 ## Known Issues
