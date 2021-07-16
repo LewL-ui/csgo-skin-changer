@@ -38,6 +38,15 @@ If you want to make the weapon StatTrak:
         "statTrack": 9999
     }
 ```
+To change the skin, you change the value of `skinID`, example:
+```
+    "deagle": {
+        "id": 1,
+        "skinID": 962,
+        "float": 0.001,
+        "statTrack": 9999
+    }
+```
 
 
 ## Known Issues
