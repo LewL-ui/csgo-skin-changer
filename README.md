@@ -1,12 +1,24 @@
-# CSGO Skin Swapper - External skin changer for CSGO
-<h3>About</h3>
-<h3>Requirements</h3>
-<ul><li><a href="https://www.python.org/">Python >= 3.5</a></li>
-  <li><a href="https://pypi.org/project/Pymem/">Pymem</a></li>
-  <li><a href="https://pypi.org/project/keyboard/">Keyboard</a></li>
-  <li><a href="https://pypi.org/project/pywin32/">win32api</a></li>
-</ul>
+## Installation
+The skin swapper requires [python 3.6](https://www.python.org/downloads/release/python-360/) or greater.
 
-<h3>How to use</h3>
-<h3>Important</h3>
-<ul>I'm not responsible for any bans that happen from using this software. Use at your own risk.</ul>
+1. Install the required dependencies
+
+    ```
+    pip install -U -r requirements.txt
+    ```
+2. Configure your (`config.json`) file to your liking.
+
+3. Launch CS:GO.
+
+4. Launch the (`skin.py`) file by using:
+
+    ```
+    python skin.py
+    ```
+    or
+    ```
+    py skin.py
+    ```
+## Known Issues
+  * The skin swapper has some flaws and crashes some times. Usually a restart of the script fixes it.
+
