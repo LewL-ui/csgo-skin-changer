@@ -29,7 +29,7 @@ Example weapon config:
         "float": 0.001
     }
 ```
-If you want to make this weapon StatTrak: 
+If you want to make the weapon StatTrak: 
 ```
     "deagle": {
         "id": 1,
