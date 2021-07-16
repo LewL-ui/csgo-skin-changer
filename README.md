@@ -46,6 +46,7 @@ To change the skin, you change the value of `skinID`, example:
         "float": 0.001
     }
 ```
+To keep your actual skin applied on the weapon, set `skinID` to `0`.
 
 
 ## Known Issues
