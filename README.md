@@ -43,8 +43,7 @@ To change the skin, you change the value of `skinID`, example:
     "deagle": {
         "id": 1,
         "skinID": 962,
-        "float": 0.001,
-        "statTrack": 9999
+        "float": 0.001
     }
 ```
 
