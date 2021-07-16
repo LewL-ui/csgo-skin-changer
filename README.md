@@ -1,5 +1,5 @@
 ## Installation
-The skin swapper requires [python 3.6](https://www.python.org/downloads/release/python-360/) or greater.
+The skin changer requires [python 3.6](https://www.python.org/downloads/release/python-360/) or greater.
 
 1. Install the required dependencies
 
