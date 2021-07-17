@@ -46,6 +46,16 @@ To change the skin, you change the value of `skinID`, example:
         "float": 0.001
     }
 ```
+If you want to change the weapons name:
+```
+    "deagle": {
+        "id": 1,
+        "skinID": 0,
+        "float": 0.001,
+        "name": "i cant use this pistol"
+    }
+```
+
 To keep your actual skin applied on the weapon, set `skinID` to `0`.
 
 You can find skin ids from [here](https://csgostash.com/), finding a skin, and the Finish Catalog is your skin id as seen below:
