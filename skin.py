@@ -15,6 +15,8 @@ m_nFallbackPaintKit = int(t.json()['netvars']['m_nFallbackPaintKit'])
 m_iItemDefinitionIndex = int(t.json()['netvars']['m_iItemDefinitionIndex'])
 m_flFallbackWear = int(t.json()['netvars']['m_flFallbackWear'])
 m_nFallbackStatTrak = int(t.json()['netvars']['m_nFallbackStatTrak'])
+m_szCustomName = int(t.json()['netvars']['m_szCustomName'])
+
 print("Skin swapper has launched.")
 handle = pymem.Pymem("csgo.exe")
 client_dll = pymem.process.module_from_name(handle.process_handle, "client.dll").lpBaseOfDll
@@ -49,9 +51,12 @@ while True:
                 fallbackWear = config[k]["float"]
                 if "statTrack" in config[k]:
                     statTrak(config[k]["statTrack"])
+                if "name" in config[k]:
+                    handle.write_string(currentWeapon + m_szCustomName, config[k]["name"])
         handle.write_int(currentWeapon + m_iItemIDHigh, itemIDHigh)
         handle.write_int(currentWeapon + m_nFallbackPaintKit, fallbackPaint)
         handle.write_float(currentWeapon + m_flFallbackWear, fallbackWear)
+        
         
         if keyboard.is_pressed('f1'):
             force_full_update()
