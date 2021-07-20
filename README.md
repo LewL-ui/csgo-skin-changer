@@ -35,7 +35,7 @@ If you want to make the weapon StatTrak:
         "id": 1,
         "skinID": 0,
         "float": 0.001,
-        "statTrack": 9999
+        "statTrak": 9999
     }
 ```
 To change the skin, you change the value of `skinID`, example:
