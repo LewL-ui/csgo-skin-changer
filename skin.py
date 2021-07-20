@@ -49,8 +49,8 @@ while True:
             if weaponID == config[k]["id"]:
                 fallbackPaint = config[k]["skinID"]
                 fallbackWear = config[k]["float"]
-                if "statTrack" in config[k]:
-                    statTrak(config[k]["statTrack"])
+                if "statTrak" in config[k]:
+                    statTrak(config[k]["statTrak"])
                 if "name" in config[k]:
                     handle.write_string(currentWeapon + m_szCustomName, config[k]["name"])
         handle.write_int(currentWeapon + m_iItemIDHigh, itemIDHigh)
